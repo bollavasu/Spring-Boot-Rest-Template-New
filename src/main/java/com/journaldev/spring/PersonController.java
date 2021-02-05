@@ -11,7 +11,7 @@ public class PersonController {
 	
 	@RequestMapping("/")
 	public String welcome() {
-		return "Welcome to Spring Boot REST NEW ...";
+		return "Welcome to Spring Boot REST Latest ...";
 	}
 	
 }
