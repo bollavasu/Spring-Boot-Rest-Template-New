@@ -11,6 +11,7 @@ public class PersonController {
 	
 	@RequestMapping("/")
 	public String welcome() {
+		System.out.println("Hi");
 		return "Welcome to Spring Boot REST Latest Latest Latest";
 	}
 	
